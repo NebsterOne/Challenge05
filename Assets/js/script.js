@@ -22,7 +22,6 @@ $("#hour10 .description").val(localStorage.getItem("hour10"));
 $("#hour11 .description").val(localStorage.getItem("hour11"));
 $("#hour12 .description").val(localStorage.getItem("hour12"));
 
-
 // Function to track tasks and make them change colors if they are in the past, present or future
 function auditTask() {
   var currentHour = today.hours();
